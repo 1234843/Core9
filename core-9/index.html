@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>core-9</title>
+
+    <!-- STYLE STARTS -->
+
+    <!-- bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <div class=""></div>
+
+
+    <!-- Font awsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Main styel -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- locomotive js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
+
+
+    <!-- SWiper js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <!-- anim  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="web-container" id="main-container">
+        <!-- ------------Navbar starts here ------------ -->
+        <div class="scroll1 fixed-top" id="add-scroll-anim">
+            <nav class="navbar navbar-dark navbar-expand-lg container">
+                <div class="d-flex container-fluid px-3" style="width: 100%" id="ps">
+                    <div>
+                        <a href="index.html"><img src="assets/images/logo/logo.jpg" alt="" id="logo" /></a>
+                        <a href="index.html"><img src="assets/images/logo/logo.jpg" alt="" id="logo-2" /></a>
+                    </div>
+
+                    <button onclick="navbg()" class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                        aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse w-50" id="navbarText">
+                    <div class="navbar-nav nav-clickables mx-auto">
+                        <a class="nav-link active" href="#home">Home</a>
+                        <a class="nav-link " href="#faq">FAQ</a>
+                        <a class="nav-link" href="#Pricing">Pricing</a> 
+                        <a class="nav-link" target="_blank"
+                            href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1e8355_aaTVd4BVFsZVVC-pSxy7ZYqvArs5v7TR6RlD5l4M9xDqi6WxKPUkEUESwU1pVi50E-a">Schedule
+                            A Call</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- ==============nav Ends here============ -->
+
+        <!-- BANNER STARTS HERE -->
+        <div class="banner" id="home">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-6 col-12 banner-left">
+                        <h1 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="400">Need Experience
+                            Technology, Data, AI or Math Talent but Can’t Pay 150K/Year Salaries
+                            <span>+</span>
+                            Benefits.
+                        </h1>
+                        <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500"><i
+                                class="fa-solid fa-arrow-right"></i> Hire them <span>off-shore</span> and scale up
+                            your business at a fourth of the cost. </p>
+
+                        <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600">
+                            <i class="fa-solid fa-arrow-right"></i> Quarter to quarter contracts.
+                        </p>
+
+                        <p>
+                            <i class="fa-solid fa-arrow-right"></i> Hire in 2 weeks.
+
+                        </p>
+
+                        <p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                            Accelerate build out of your Minimum Variable Product (MVP) and Go-To-Market faster.
+                        </p>
+
+
+                        <button class="btn-style  mt-4"><a
+                                href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1e8355_aaTVd4BVFsZVVC-pSxy7ZYqvArs5v7TR6RlD5l4M9xDqi6WxKPUkEUESwU1pVi50E-a"
+                                target="_blank">Schedule a
+                                call</a></button>
+                        <button class="btn-style"><a href="#Pricing">Rate Card </a></button>
+                    </div>
+
+                    <div class="col-xl-6    d-none d-xl-block banner-right">
+                        <img style="margin-top: 0px; display: block;" src="assets/Images/flat-university-concept.png"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Banner ends here -->
+
+        <section>
+            <div class="infografic">
+                <div class="header">
+                    <h2>How Does It Work</h2>
+
+                </div>
+
+
+                <div class="cards">
+                    <div class="cardd" data-aos="fade-down-right">
+                        <h4>Tell us your needs </h4>
+                        <p>Whether you are looking for a Developer, Tester, Project Manager, Quantitative Analyst, Data
+                            Scientist, Machine Learning Engineer or looking to implement and end-to-end project we have
+                            the right team for you. </p>
+                        <img src="assets/Images/info/need.png" class="magnify-glass card-imgg" alt="">
+                        <img src="assets/Images/info/arrow.png" class="arrow" alt="">
+                    </div>
+
+                    <div class="cardd" data-aos="fade-down-left">
+                        <h4>We put together a team </h4>
+                        <p>We fan out your resource or project needs to our on the ground recruiters and put together
+                            the most qualified candidates or team for you. </p>
+                        <img src="assets/Images/info/teamwork.png" class="graph card-imgg" alt="">
+                        <img src="assets/Images/info/arrow.png" class="arrow" alt="">
+
+                    </div>
+
+                    <div class="cardd" data-aos="fade-left">
+                        <h4>Onboard and start work</h4>
+                        <p>The individual or team is onboarded with Core-9 and works for you on contract. We ensure the
+                            entire process is seamless so that you can focus more on your business.</p>
+                        <img src="assets/Images/info/work-orientation.png" class="speaker card-imgg" alt="">
+                        <img src="assets/Images/info/arrow.png" class="arrow" alt="">
+
+                    </div>
+
+                    <div class="cardd" data-aos="fade-right">
+                        <h4>You get a chance to speak to them </h4>
+                        <p>You speak to them to make sure they are the right fit for your team. A team that laughs
+                            together works together. </p>
+                        <img src="assets/Images/info/candidate.png" class="card-imgg" alt="">
+                        <img src="assets/Images/info/arrow.png" class="arrow" alt="">
+
+                    </div>
+
+
+
+                    <div class="cardd" data-aos="fade-up-right">
+                        <h4>We are there every step of the way</h4>
+                        <p>We assign an Account Manager to you that ensures that all your current and future needs are
+                            met promptly. </p>
+                        <img src="assets/Images/info/collaboration.png" class="chat card-imgg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ------------------------------Plans -->
+        <section id="Pricing">
+            <div class="plans">
+                <div class="header">
+                    <h2 class="text-center">What You Can Expect</h2>
+                </div>
+
+
+                <div class="cards">
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <!-- 1 -->
+                                <div class="cardd">
+                                    <h3 class=""> $<span class="blur-ef">1,900</span>/ <span
+                                            class="sm-text">Month</span> </h3>
+
+                                    <div class="card-img">
+                                        <img src="https://assets-global.website-files.com/64c5603bf22c3195f7860ac1/650be721a2541b6752d77b90_expect%201_com.png"
+                                            alt="">
+                                    </div>
+                                    <p class="rolee">Programmers/Developers</p>
+
+                                    <p>Developers are vital for cloud computing, backend development, data science, and
+                                        automation. Their expertise enables efficient application development,
+                                        infrastructure management, and data analysis, driving innovation across
+                                        industries.</p>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        Get Pricing
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- 2 -->
+                            <div class="swiper-slide">
+                                <div class="cardd">
+                                    <h3>$<span class="blur-ef">2,300</span>/<span class="sm-text">Month</span> </h3>
+
+                                    <div class="card-img">
+                                        <img src="https://assets-global.website-files.com/64c5603bf22c3195f7860ac1/650be74c437fd145ad3e8553_expect%202_com.png"
+                                            alt="">
+                                    </div>
+                                    <p class="rolee">UI Developer </p>
+
+                                    <p>UI developers are crucial for crafting user-friendly interfaces in web and mobile
+                                        applications. Their skills in frontend technologies complement backend and cloud
+                                        computing efforts, ensuring seamless user experiences across platforms.</p>
+
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        Get Pricing
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- 3 -->
+                            <div class="swiper-slide">
+                                <div class="cardd">
+                                    <h3>$<span class="blur-ef">3,900</span>/<span class="sm-text">Month</span></h3>
+
+                                    <div class="card-img">
+                                        <img src="https://assets-global.website-files.com/64c5603bf22c3195f7860ac1/650be756e3265f4856f97f8a_expect%203_com.png"
+                                            alt="">
+                                    </div>
+                                    <p class="rolee">Quality Assurance </p>
+
+                                    <p>
+                                        Quality Assurance Engineers play a vital role in ensuring the reliability and
+                                        functionality of cloud-based and backend systems. Their expertise guarantees
+                                        seamless performance and user satisfaction across diverse technological
+                                        landscapes.
+                                    </p>
+
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        Get Pricing
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- 4 -->
+                            <div class="swiper-slide">
+                                <div class="cardd">
+                                    <h3>$<span class="blur-ef">4,100</span>/<span class="sm-text">Month</span></h3>
+
+                                    <div class="card-img">
+                                        <img src="https://assets-global.website-files.com/64c5603bf22c3195f7860ac1/650be7bfac9d210bf9720012_expect%204_com.png"
+                                            alt="">
+                                    </div>
+                                    <p class="rolee">Project Managers </p>
+
+                                    <p>
+                                        Project Managers are essential for timely delivery of technology projects,
+                                        orchestrating teams, resources, and timelines. Their oversight ensures efficient
+                                        coordination, mitigating delays and ensuring successful project completion
+                                        within designated timeframes.
+                                    </p>
+
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        Get Pricing
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- 5 -->
+                            <div class="swiper-slide">
+                                <div class="cardd">
+                                    <h3>$<span class="blur-ef">3,500</span>/<span class="sm-text">Month</span></h3>
+
+                                    <div class="card-img">
+                                        <img src="https://assets-global.website-files.com/64c5603bf22c3195f7860ac1/650be7d1c295dc50837b82f1_expect%205_com.png"
+                                            alt="">
+                                    </div>
+                                    <p class="rolee">Data Analyst </p>
+
+                                    <p>
+                                        Data analysts are pivotal in big data, AI, and ML by extracting insights from
+                                        vast datasets, informing strategic decisions, optimizing algorithms, and
+                                        improving model accuracy, thus driving innovation and competitive advantage.
+                                    </p>
+
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        Get Pricing
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- 6 -->
+                            <div class="swiper-slide">
+                                <div class="cardd">
+                                    <h3>$ <span class="blur-ef">2,900</span>/ <span class="sm-text">Month</span></h3>
+
+                                    <div class="card-img">
+                                        <img src="https://assets-global.website-files.com/64c5603bf22c3195f7860ac1/650be7d1c295dc50837b82f1_expect%205_com.png"
+                                            alt="">
+                                    </div>
+                                    <p class="rolee">Software Architects </p>
+
+                                    <p>
+                                        Good software architecture provides a robust foundation, enabling scalability,
+                                        flexibility, and maintainability. It streamlines development, enhances
+                                        performance, and fosters innovation, ultimately transforming products into
+                                        efficient, adaptable, and successful solutions.
+                                    </p>
+
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        Get Pricing
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal -->
+        <div class="modal plan-modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title fs-5" id="exampleModalLabel">Sign In to Get Price Details</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="registration-form ">
+
+                            <div class="header mb-3">
+
+                            </div>
+                            <form action="">
+                                <div class="form-floating   mb-3 ">
+                                    <input type="text" class="form-control" id="floatingInput1"
+                                        placeholder="name@example.com">
+                                    <label for="floatingInput1">Name</label>
+                                </div>
+
+
+                                <div class="form-floating mb-3 ">
+                                    <input type="number" class="form-control" id="floatingInput2"
+                                        placeholder="name@example.com">
+                                    <label for="floatingInput2">Phone</label>
+                                </div>
+
+                                <div class="form-floating mb-3 ">
+                                    <input type="email" class="form-control" id="floatingInput3"
+                                        placeholder="name@example.com">
+                                    <label for="floatingInput3">Email address</label>
+                                </div>
+
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="floatingPassword"
+                                        placeholder="Password">
+                                    <label for="floatingPassword">Location</label>
+                                </div>
+
+                                <div class="form-floating ">
+                                    <textarea class="form-control" placeholder="Leave a comment here"
+                                        id="floatingTextarea"></textarea>
+                                    <label for="floatingTextarea">Description</label>
+                                </div>
+
+                                <button type="button" class="btn d-block px-4 mx-auto btn-secondary"
+                                    data-bs-dismiss="modal">Sign in</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- -------------------------------Clients -->
+        <section id="service">
+            <div class="clients">
+                <h2 class="text-center">Our clients are funded by</h2>
+
+                <div class="clint-img-container">
+
+
+                    <img src="https://assets-global.website-files.com/64c5603bf22c3195f7860ac1/650beb6f13318f31818e9b9f_125557_am-p-500_com.png"
+                        alt="">
+
+                    <img src="https://assets-global.website-files.com/64c5603bf22c3195f7860ac1/650beb6ea695b2757834eb22_125609_am-p-500_com.png"
+                        alt="">
+                    <img src="https://assets-global.website-files.com/64c5603bf22c3195f7860ac1/650beb6ea695b2757834eb22_125609_am-p-500_com.png"
+                        alt="">
+                    <img src="https://assets-global.website-files.com/64c5603bf22c3195f7860ac1/650beb6f516389f0666d560d_am-p-500_com.png"
+                        alt="">
+
+                    <!-- 2 -->
+                    <img src="https://assets-global.website-files.com/64c5603bf22c3195f7860ac1/650be4f550ea8d232bcb7cda_am-p-500_cm.png"
+                        style="width: 300px;" alt="">
+
+                    <img src="https://assets-global.website-files.com/64c5603bf22c3195f7860ac1/650beb6f13318f31818e9b9f_125557_am-p-500_com.png"
+                        alt="">
+
+                    <img src="https://assets-global.website-files.com/64c5603bf22c3195f7860ac1/650beb6ea695b2757834eb22_125609_am-p-500_com.png"
+                        alt="">
+                    <img src="https://assets-global.website-files.com/64c5603bf22c3195f7860ac1/650beb6ea695b2757834eb22_125609_am-p-500_com.png"
+                        alt="">
+                    <img src="https://assets-global.website-files.com/64c5603bf22c3195f7860ac1/650beb6f516389f0666d560d_am-p-500_com.png"
+                        alt="">
+
+                    <img src="https://assets-global.website-files.com/64c5603bf22c3195f7860ac1/650beb6ffa78b97c70f64c7b_125312_am-p-500_com.png"
+                        alt="">
+
+                    <!-- 3 -->
+                    <img src="https://assets-global.website-files.com/64c5603bf22c3195f7860ac1/650be4f550ea8d232bcb7cda_am-p-500_cm.png"
+                        style="width: 300px;" alt="">
+
+                    <img src="https://assets-global.website-files.com/64c5603bf22c3195f7860ac1/650beb6f13318f31818e9b9f_125557_am-p-500_com.png"
+                        alt="">
+
+                    <img src="https://assets-global.website-files.com/64c5603bf22c3195f7860ac1/650beb6ea695b2757834eb22_125609_am-p-500_com.png"
+                        alt="">
+                    <img src="https://assets-global.website-files.com/64c5603bf22c3195f7860ac1/650beb6ea695b2757834eb22_125609_am-p-500_com.png"
+                        alt="">
+                    <img src="https://assets-global.website-files.com/64c5603bf22c3195f7860ac1/650beb6f516389f0666d560d_am-p-500_com.png"
+                        alt="">
+
+                    <img src="https://assets-global.website-files.com/64c5603bf22c3195f7860ac1/650beb6ffa78b97c70f64c7b_125312_am-p-500_com.png"
+                        alt="">
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+        <!-- -----------------------Frequently asked questions----------- -->
+        <section id="faq">
+            <div class="faq">
+                <div class="heading">
+                    <h2 class="text-center">Frequently Asked Questions</h2>
+                </div>
+
+                <div class="faq-content">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+
+                        <!-- 1 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Do you only provide resources or take on projects?
+
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">We do both, we provide resources that you or your team
+                                    manages and have control of the day to day task of the resource or we take on the
+                                    project and manage the project timelines, cost and resourcing needs. </div>
+                            </div>
+                        </div>
+
+                        <!-- 2 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    What resources do you specialize in?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>We have excellent on the ground network of recruiter that identify the top talent
+                                        for your needs. We specialize in </p>
+                                    <ul>
+                                        <li>Engineering Managers </li>
+                                        <li>Developers / Programmers</li>
+                                        <li>Data Scientist</li>
+                                        <li>Machine Learning Engineers</li>
+                                        <li>ETL Engineers</li>
+                                        <li>Quantitative Analyst</li>
+                                        <li>Business Analyst</li>
+                                        <li>Project Managers</li>
+                                        <li>Program Managers</li>
+                                        <li>UI Developers</li>
+                                        <li>Quality Assurance Engineers</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 3 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    Where is the resource located?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        We are expanding our geographic footprint but as of now our resources are based
+                                        out of India. We understand time zone is important and thus we ensure the
+                                        resource has significant overlap with the on-shore teams.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- 4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#FAQ-flush-collapse4" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    Is this cost and work effective?
+                                </button>
+                            </h2>
+                            <div id="FAQ-flush-collapse4" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">We have noticed that when the right off-shore talent is
+                                    hired they produce the same quality of output as an on-shore resource at almost 30%
+                                    the cost. To get more accurate pricing <a href="#">click here</a> .</div>
+                            </div>
+                        </div>
+
+                        <!--  
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#FAQ-flush-collapse5" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    Where will my hires be based?
+                                </button>
+                            </h2>
+                            <div id="FAQ-flush-collapse5" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Time zones matter. Ethically, we don’t think it’s right to
+                                    make people work overnight. We’ve noticed that Candidates who work the night shift
+                                    eventually get burned out and look for other jobs, which makes sense because people
+                                    want lives. People want happy lives, where they see the sun and go to their kids’
+                                    birthday parties.</div>
+                            </div>
+                        </div>
+
+ 
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#FAQ-flush-collapse6" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    Where is the Scale Army team based?
+                                </button>
+                            </h2>
+                            <div id="FAQ-flush-collapse6" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">In the U.S., it’s NYC, Miami and sometimes LA. Abroad, it’s
+                                    Colombia, South Africa, Egypt and Kenya.</div>
+                            </div>
+                        </div>
+
+ 
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#FAQ-flush-collapse7" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    What positions can Scale Army help us hire for?
+                                </button>
+                            </h2>
+                            <div id="FAQ-flush-collapse7" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Marketing roles are around 70% of our business. The other
+                                    30% are across Sales, Ops, Finance, VAs, Support, and Devs. If we’re not the team to
+                                    find you someone, we’ll send you off to a sister agency that can help.
+
+                                </div>
+                            </div>
+                        </div>
+
+
+ 
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#FAQ-flush-collapse8" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    How much does it cost?
+                                </button>
+                            </h2>
+                            <div id="FAQ-flush-collapse8" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">It’s a range, but on average, the people we find end up
+                                    being 70% less expensive than a fully-baked U.S. hire.
+
+                                </div>
+                            </div>
+                        </div> -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- For you -->
+        <section>
+            <div class="about-traniee">
+                <!-- Shape -->
+                <img src="assets/Images/contact-us/cross-shape.png" class="cros-rect" alt="">
+                <img src="assets/Images/contact-us/shape-rectss.png" class="rect-shape" alt="">
+
+                <div class="about-traniee-container">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-6 leftt">
+                                <img src="assets/Images/for-you/jfvjv20.webp" alt="">
+                            </div>
+
+                            <div class="col-6 right  my-auto">
+                                <h2>About us</h2>
+                                <h3>Each of our team member has </h3>
+
+                                <ul>
+                                    <li> <span><img src="assets/Images/for-you/arrow.png" alt=""> </span> Comes from an
+                                        accredited university </li>
+                                    <li><img src="assets/Images/for-you/arrow.png" alt=""> Communicates fluently in
+                                        English</li>
+                                    <li><img src="assets/Images/for-you/arrow.png" alt=""> Has many years of work
+                                        experience</li>
+                                    <li><img src="assets/Images/for-you/arrow.png" alt=""> Available during your time
+                                        zone</li>
+                                    <li><img src="assets/Images/for-you/arrow.png" alt=""> Has been thoroughly
+                                        interviewed for core competencies </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Core Competency -->
+        <section>
+            <div class="Core-Competency">
+
+                <div class="header">
+                    <h2 class="text-center"> Core Competency</h2>
+                </div>
+                <div class="contents">
+                    <div class="aws">
+                        <div class="main-img">
+                            <img data-aos="zoom-in" src="assets/Images/core-compitancy/main-img.png" class="main-img" alt="">
+
+                            <div class="aws-icons">
+                                <img data-aos="zoom-out-down" data-aos-easing="ease-in-back" data-aos-delay="800"
+                                    data-aos-offset="0" src="assets/Images/core-compitancy/aws/a-cognito.png" alt="">
+                                <img data-aos="zoom-out-left" data-aos-easing="ease-in-back" data-aos-delay="700"
+                                    data-aos-offset="0" src="assets/Images/core-compitancy/aws/cloud.png" alt="">
+                                <img data-aos="fade-down" data-aos-easing="ease-in-back" data-aos-delay="500"
+                                    data-aos-offset="0" src="assets/Images/core-compitancy/aws/a-work-docs.png" alt="">
+                                <img data-aos="zoom-out-left" data-aos-easing="ease-in-back" data-aos-delay="300"
+                                    data-aos-offset="0" src="assets/Images/core-compitancy/aws/amazon-saQs.png" alt="">
+                                <img data-aos="zoom-out-up" data-aos-easing="ease-in-back" data-aos-delay="400"
+                                    data-aos-offset="0" src="assets/Images/core-compitancy/aws/workmail.png" alt="">
+                            </div>
+
+                        </div>
+
+                        <h4>Cloud Infrastructure</h4>
+                    </div>
+
+                    <!-- 2 -->
+
+                    <div class="aws">
+                        <div class="main-img">
+                            <img src="assets/Images/core-compitancy/main-img.png" data-aos="zoom-in" class="main-img" alt="">
+
+                            <div class="aws-icons">
+                                <img data-aos="zoom-out-up" data-aos-easing="ease-in-back" data-aos-delay="500"
+                                    data-aos-offset="0" src="assets/Images/core-compitancy/programing-lng/html.png"
+                                    alt="">
+                                <img data-aos="fade-down" data-aos-easing="ease-in-back" data-aos-delay="600"
+                                    data-aos-offset="0" src="assets/Images/core-compitancy/programing-lng/css.png"
+                                    alt="">
+                                <img data-aos="zoom-out-left" data-aos-easing="ease-in-back" data-aos-delay="700"
+                                    data-aos-offset="0" src="assets/Images/core-compitancy/programing-lng/java.png"
+                                    alt="">
+                                <img data-aos="fade-up" data-aos-easing="ease-in-back" data-aos-delay="400"
+                                    data-aos-offset="0" src="assets/Images/core-compitancy/programing-lng/python.png"
+                                    alt="">
+                                <img data-aos="zoom-out-left" data-aos-easing="ease-in-back" data-aos-delay="500"
+                                    data-aos-offset="0" src="assets/Images/core-compitancy/programing-lng/ts.png"
+                                    alt="">
+                            </div>
+
+                        </div>
+
+                        <h4>Programming Languages</h4>
+                    </div>
+
+
+
+
+                    <!-- 3 -->
+                    <div class="business">
+                        <div class="main-img">
+                            <img src="assets/Images/core-compitancy/main-img.png" data-aos="zoom-in" class="main-img" alt="">
+
+                            <div class="aws-icons">
+                                <img data-aos="zoom-out-up" data-aos-easing="ease-in-back" data-aos-delay="200"
+                                    data-aos-offset="0" src="assets/Images/core-compitancy/busssiness/pentaho.png"
+                                    alt="">
+                                <img data-aos="fade-up" data-aos-easing="ease-in-back" data-aos-delay="500"
+                                    data-aos-offset="0" src="assets/Images/core-compitancy/busssiness/powerbi.png"
+                                    alt="">
+                                <img data-aos="zoom-out-left" data-aos-easing="ease-in-back" data-aos-delay="300"
+                                    data-aos-offset="0" src="assets/Images/core-compitancy/busssiness/looker.png"
+                                    alt="">
+                                <img data-aos="zoom-out-right" data-aos-easing="ease-in-back" data-aos-delay="600"
+                                    data-aos-offset="0" src="assets/Images/core-compitancy/busssiness/Qlik.png" alt="">
+                                <img data-aos="zoom-out-down" data-aos-easing="ease-in-back" data-aos-delay="500"
+                                    data-aos-offset="0" src="assets/Images/core-compitancy/busssiness/Sisense.png"
+                                    alt="">
+                            </div>
+
+                        </div>
+
+                        <h4>Business Intelligence </h4>
+                    </div>
+
+
+
+                    <div class="dev-ops">
+                        <div class="main-img">
+                            <img src="assets/Images/core-compitancy/main-img.png" data-aos="zoom-in" class="main-img" alt="">
+
+                            <div class="aws-icons">
+                                <img data-aos="zoom-out-left" data-aos-easing="ease-in-back" data-aos-delay="700"
+                                    data-aos-offset="0" src="assets/Images/core-compitancy/dev-ops/amazon_lambda.png"
+                                    alt="">
+                                <img data-aos="zoom-out-right" data-aos-easing="ease-in-back" data-aos-delay="400"
+                                    data-aos-offset="0"
+                                    src="assets/Images/core-compitancy/dev-ops/AWS-CodePipelines.png" alt="">
+                                <img data-aos="zoom-out-up" data-aos-easing="ease-in-back" data-aos-delay="300"
+                                    data-aos-offset="0" src="assets/Images/core-compitancy/dev-ops/cloud-formation.png"
+                                    alt="">
+                                <img data-aos="zoom-out-right" data-aos-easing="ease-in-back" data-aos-delay="500"
+                                    data-aos-offset="0" src="assets/Images/core-compitancy/dev-ops/aws-directory.png"
+                                    alt="">
+                                <img data-aos="zoom-out-down" data-aos-easing="ease-in-back" data-aos-delay="600"
+                                    data-aos-offset="0" src="assets/Images/core-compitancy/dev-ops/opsworks.png" alt="">
+                            </div>
+
+                        </div>
+
+                        <h4>DevOps</h4>
+                    </div>
+
+
+                    <div class="testing">
+                        <div class="main-img">
+                            <img src="assets/Images/core-compitancy/main-img.png" data-aos="zoom-in" class="main-img" alt="">
+
+                            <div class="aws-icons">
+                                <img data-aos="zoom-out-down" data-aos-easing="ease-in-back" data-aos-delay="700"
+                                    data-aos-offset="0" src="assets/Images/core-compitancy/testing/apium.png" alt="">
+                                <img data-aos="zoom-out-left" data-aos-easing="ease-in-back" data-aos-delay="500"
+                                    data-aos-offset="0" src="assets/Images/core-compitancy/testing/cypress-logo.webp"
+                                    alt="">
+                                <img data-aos="zoom-out-right" data-aos-easing="ease-in-back" data-aos-delay="600"
+                                    data-aos-offset="0" src="assets/Images/core-compitancy/testing/perfecto.png" alt="">
+                                <img data-aos="zoom-out-left" data-aos-easing="ease-in-back" data-aos-delay="800"
+                                    data-aos-offset="0" src="assets/Images/core-compitancy/testing/ketalon.png" alt="">
+                                <img data-aos="zoom-out-up" data-aos-easing="ease-in-back" data-aos-delay="200"
+                                    data-aos-offset="0" src="assets/Images/core-compitancy/testing/selenium.png" alt="">
+                            </div>
+
+                        </div>
+
+                        <h4>QA Testing Tools</h4>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- -----------------------------Contact us -->
+        <section id="Schedule-A-Call">
+            <div class="contact-us">
+                <!-- shapes -->
+                <img class="cross-shape" src="assets/Images/contact-us/cross-shape.png" alt="">
+                <img class="rects-shape" src="assets/Images/contact-us/shape-rectss.png" alt="">
+
+
+                <div class="contact-us-content">
+                    <div>
+                        <h2 data-aos="flip-left">Request a Call Back</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, praesentium neque
+                            distinctio repellendus cupiditate omnis, </p>
+                    </div>
+
+                    <div>
+                        <form action="">
+                            <div class="row">
+                                <div class="col-6 mt-3" data-aos="flip-up">
+                                    <input type="text" class="form-control form-control-lg" placeholder="Name"
+                                        aria-label="First name">
+                                </div>
+
+                                <div class="col-6 mt-3" data-aos="flip-down">
+                                    <input type="number" class="form-control form-control-lg" placeholder="Phone"
+                                        aria-label="phone">
+                                </div>
+
+                                <div class="col-6 mt-3" data-aos="fade-right">
+                                    <input type="mail" class="form-control form-control-lg" placeholder="Emain"
+                                        aria-label="Emain">
+                                </div>
+
+                                <div class="col-6 mt-3" data-aos="fade-left">
+                                    <button class="btn btn-lg text-light ">Send</button>
+                                </div>
+
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ------------------------------FOOTER -->
+        <footer role="contentinfo">
+            <div class="footer">
+                <div class="container middle-content content">
+                    <div class="row">
+                        <div class="col-lg-3 mb-4 mb-md-0 footer-first"> <img src="assets/images/logo/logo.jpg"
+                                class="logo" alt="" />
+
+                            <ul class="d-flex gap-3 mt-4 ms-1">
+                                <li> <a href="#"><i class="fa-brands fa-linkedin"></i></a> </li>
+                                <li> <a href="#"><i class="fa-brands fa-facebook"></i></a> </li>
+                                <li> <a href="#"><i class="fa-brands fa-whatsapp"></i></a> </li>
+                                <li> <a href="#"><i class="fa-brands fa-twitter"></i></a> </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-9 ms-auto">
+                            <div class="row site-section pt-0">
+                                <div class="col-md-3 mb-4 mb-md-0 needhelp">
+                                    <h3>Overview</h3>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">Typical Pricing </a></li>
+                                        <li> <a href="#">Typical Tasks </a> </li>
+                                        <li><a href="#"> Talent Guarantee</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3 mb-4 mb-md-0">
+                                    <h3>Useful Links</h3>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#home">Home </a></li>
+                                        <li><a href="#aboutus">About Us</a></li>
+                                        <li><a href="#service">Services</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3 mb-4 mb-md-0">
+                                    <h3>Our Policy</h3>
+                                    <ul class="list-unstyled">
+                                        <li> <a href="termsAndCondition.html"> Terms and Conditions</a> </li>
+                                        <li> <a href="privacyPolicy.html"> Privacy policy</a> </li>
+                                        <li> <a href="refundpolicy.html"> Refund Policy</a> </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3 mb-4 mb-md-0 fourth-col">
+                                    <h3>Need to reach us?</h3>
+                                    <p>We’re here to answer all your questions. Fill out our contact form and we’ll
+                                        connect you with the people who can help.</p>
+
+                                    <button>Contact us</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-btm">
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+    <!-- Web-container ends here -->
+    <!-- =========   javscript starts here ================   -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    </div>
+
+    <!-- locomotive js -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+
+    <!-- main -->
+    <script src="assets/js/script.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+                clickable: true,
+            },
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
